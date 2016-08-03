@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.core;
+package com.peppe130.fireinstaller.core;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -8,7 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-import com.peppe130.rominstaller.R;
+import com.peppe130.fireinstaller.R;
 import com.stericson.RootShell.exceptions.RootDeniedException;
 import com.stericson.RootShell.execution.Command;
 import com.stericson.RootTools.RootTools;

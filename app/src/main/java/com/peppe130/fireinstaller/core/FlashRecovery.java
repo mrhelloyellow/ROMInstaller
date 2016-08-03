@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.core;
+package com.peppe130.fireinstaller.core;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.concurrent.TimeoutException;
 
-import com.peppe130.rominstaller.R;
-import com.peppe130.rominstaller.ControlCenter;
+import com.peppe130.fireinstaller.R;
+import com.peppe130.fireinstaller.ControlCenter;
 import com.google.common.hash.Hashing;
 import com.google.common.io.Files;
 import com.stericson.RootShell.exceptions.RootDeniedException;

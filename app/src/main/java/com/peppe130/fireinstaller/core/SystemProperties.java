@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.core;
+package com.peppe130.fireinstaller.core;
 
 
 @SuppressWarnings("unused")

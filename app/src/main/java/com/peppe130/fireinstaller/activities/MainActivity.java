@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.activities;
+package com.peppe130.fireinstaller.activities;
 
 import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
@@ -22,15 +22,15 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import java.io.File;
 
-import com.peppe130.rominstaller.R;
-import com.peppe130.rominstaller.core.Utils;
-import com.peppe130.rominstaller.ControlCenter;
-import com.peppe130.rominstaller.FragmentsCollector;
-import com.peppe130.rominstaller.core.CustomViewPager;
-import com.peppe130.rominstaller.core.CheckFile;
-import com.peppe130.rominstaller.core.CustomFileChooser;
-import com.peppe130.rominstaller.core.InstallPopupDialog;
-import com.peppe130.rominstaller.core.SystemProperties;
+import com.peppe130.fireinstaller.R;
+import com.peppe130.fireinstaller.core.Utils;
+import com.peppe130.fireinstaller.ControlCenter;
+import com.peppe130.fireinstaller.FragmentsCollector;
+import com.peppe130.fireinstaller.core.CustomViewPager;
+import com.peppe130.fireinstaller.core.CheckFile;
+import com.peppe130.fireinstaller.core.CustomFileChooser;
+import com.peppe130.fireinstaller.core.InstallPopupDialog;
+import com.peppe130.fireinstaller.core.SystemProperties;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.mikepenz.iconics.IconicsDrawable;

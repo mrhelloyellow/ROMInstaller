@@ -1,11 +1,11 @@
-package com.peppe130.rominstaller;
+package com.peppe130.fireinstaller;
 
 import org.jetbrains.annotations.Contract;
 import android.support.annotation.Nullable;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.peppe130.rominstaller.core.Utils;
+import com.peppe130.fireinstaller.core.Utils;
 import com.mikepenz.entypo_typeface_library.Entypo;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import com.mikepenz.iconics.typeface.IIcon;

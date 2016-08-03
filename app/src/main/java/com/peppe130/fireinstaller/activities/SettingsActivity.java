@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.activities;
+package com.peppe130.fireinstaller.activities;
 
 import android.support.annotation.Nullable;
 import android.content.Intent;
@@ -14,10 +14,10 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import java.io.File;
 
-import com.peppe130.rominstaller.R;
-import com.peppe130.rominstaller.BuildConfig;
-import com.peppe130.rominstaller.core.Utils;
-import com.peppe130.rominstaller.ControlCenter;
+import com.peppe130.fireinstaller.R;
+import com.peppe130.fireinstaller.BuildConfig;
+import com.peppe130.fireinstaller.core.Utils;
+import com.peppe130.fireinstaller.ControlCenter;
 import com.mikepenz.community_material_typeface_library.CommunityMaterial;
 import com.mikepenz.entypo_typeface_library.Entypo;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;

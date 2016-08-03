@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.core;
+package com.peppe130.fireinstaller.core;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,9 +13,9 @@ import android.view.WindowManager;
 import java.io.IOException;
 import java.util.Arrays;
 
-import com.peppe130.rominstaller.R;
-import com.peppe130.rominstaller.ControlCenter;
-import com.peppe130.rominstaller.activities.MainActivity;
+import com.peppe130.fireinstaller.R;
+import com.peppe130.fireinstaller.ControlCenter;
+import com.peppe130.fireinstaller.activities.MainActivity;
 import com.google.common.hash.Hashing;
 import com.google.common.io.Files;
 import com.stericson.RootTools.RootTools;

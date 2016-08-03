@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.core;
+package com.peppe130.fireinstaller.core;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -26,8 +26,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.peppe130.rominstaller.R;
-import com.peppe130.rominstaller.ControlCenter;
+import com.peppe130.fireinstaller.R;
+import com.peppe130.fireinstaller.ControlCenter;
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
 

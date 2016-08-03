@@ -1,13 +1,13 @@
-package com.peppe130.rominstaller.activities;
+package com.peppe130.fireinstaller.activities;
 
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import java.io.File;
 
-import com.peppe130.rominstaller.R;
-import com.peppe130.rominstaller.core.Utils;
-import com.peppe130.rominstaller.ControlCenter;
+import com.peppe130.fireinstaller.R;
+import com.peppe130.fireinstaller.core.Utils;
+import com.peppe130.fireinstaller.ControlCenter;
 import org.sufficientlysecure.htmltextview.HtmlRemoteImageGetter;
 import org.sufficientlysecure.htmltextview.HtmlTextView;
 

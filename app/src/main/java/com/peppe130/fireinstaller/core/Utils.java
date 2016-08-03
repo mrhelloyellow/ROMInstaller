@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.core;
+package com.peppe130.fireinstaller.core;
 
 import android.annotation.SuppressLint;
 import android.support.annotation.Nullable;
@@ -26,7 +26,7 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Map;
 
-import com.peppe130.rominstaller.R;
+import com.peppe130.fireinstaller.R;
 import com.afollestad.materialdialogs.MaterialDialog;
 
 

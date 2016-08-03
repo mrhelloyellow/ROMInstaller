@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.activities;
+package com.peppe130.fireinstaller.activities;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -22,10 +22,10 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.peppe130.rominstaller.R;
-import com.peppe130.rominstaller.core.Utils;
-import com.peppe130.rominstaller.ControlCenter;
-import com.peppe130.rominstaller.core.CustomFileChooser;
+import com.peppe130.fireinstaller.R;
+import com.peppe130.fireinstaller.core.Utils;
+import com.peppe130.fireinstaller.ControlCenter;
+import com.peppe130.fireinstaller.core.CustomFileChooser;
 import cn.pedant.SweetAlert.SweetAlertDialog;
 import mehdi.sakout.fancybuttons.FancyButton;
 import com.mikepenz.iconics.IconicsDrawable;

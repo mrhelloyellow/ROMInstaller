@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller.activities;
+package com.peppe130.fireinstaller.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -12,9 +12,9 @@ import android.view.View;
 import android.widget.Button;
 import java.io.File;
 
-import com.peppe130.rominstaller.R;
-import com.peppe130.rominstaller.core.Utils;
-import com.peppe130.rominstaller.ControlCenter;
+import com.peppe130.fireinstaller.R;
+import com.peppe130.fireinstaller.core.Utils;
+import com.peppe130.fireinstaller.ControlCenter;
 import com.afollestad.materialdialogs.MaterialDialog;
 import org.sufficientlysecure.htmltextview.HtmlRemoteImageGetter;
 import org.sufficientlysecure.htmltextview.HtmlTextView;

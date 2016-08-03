@@ -1,4 +1,4 @@
-package com.peppe130.rominstaller;
+package com.peppe130.fireinstaller;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
