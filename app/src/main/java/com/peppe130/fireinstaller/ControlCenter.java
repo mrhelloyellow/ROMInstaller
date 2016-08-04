@@ -15,13 +15,13 @@ import com.mikepenz.ionicons_typeface_library.Ionicons;
 @SuppressWarnings("ConstantConditions")
 public class ControlCenter {
 
-    public static String[] DEVICE_COMPATIBILITY_LIST = new String[] {"SM-G920F"};
-    public static String[] ROM_MD5_LIST = new String[] {"b14da8918a4359c809f83884c5ec2f5b"};
+    public static String[] DEVICE_COMPATIBILITY_LIST = new String[] {"SM-G930F","SM-G935F"};
+    public static String[] ROM_MD5_LIST = new String[] {"B3121939F200A146385BB935F68A04CC"};
     public static String[] RECOVERY_MD5_LIST = new String[] {"5fb732eea3d3e2b407fa7685c27a5354"};
 
     public static Boolean TEST_MODE = false;
     public static Boolean TRIAL_MODE = true;
-    public static Boolean BUTTON_UI = false;
+    public static Boolean BUTTON_UI = true;
     public static Boolean SHOULD_SHOW_SPLASH_SCREEN = true;
     public static Boolean SHOULD_SHOW_DISCLAIMER_SCREEN = true;
 
@@ -37,10 +37,10 @@ public class ControlCenter {
 
     public static void DownloadROM() {
 
-        Utils.FILE_NAME = "SampleROM.zip";
+        Utils.FILE_NAME = "FirePower5.zip";
 
         Utils.StartDownloadROM(
-                "http://www.mediafire.com/download/hc9r53djj82zncx/SampleROM.zip",
+                "https://drive.google.com/open?id=0B2vn8-7g1lxFLTZTNFJ0bXM0LVk",
                 Utils.ACTIVITY.getString(R.string.rom_folder));
 
     }
@@ -97,9 +97,9 @@ public class ControlCenter {
 
         switch (mInt) {
             case 0: // Single download without MD5 check
-                mDownloadLink = "http://www.mediafire.com/download/z7fn3nw1vn5oo8a/Test.zip";
+                mDownloadLink = "https://drive.google.com/open?id=0B2vn8-7g1lxFLTZTNFJ0bXM0LVk";
                 mDownloadDirectory = Utils.ACTIVITY.getString(R.string.rom_folder);
-                mDownloadedFileFinalName = "Test.zip";
+                mDownloadedFileFinalName = "FirePower5.zip";
                 mDownloadedFileMD5 = null;
 
                 Utils.StartSingleDownload(mDownloadLink, mDownloadDirectory, mDownloadedFileFinalName, mDownloadedFileMD5);

@@ -24,13 +24,13 @@
             android:key="project_developer"
             android:persistent="false"
             android:title="@string/project_developer_title"
-            android:summary="@string/project_developer_summary"/>
+            android:summary="BenjaminW8"/>
 
         <Preference
             android:key="project_themer"
             android:persistent="false"
             android:title="@string/project_themer_title"
-            android:summary="@string/project_themer_summary"/>
+            android:summary="Mrhelloyellow"/>
 
         <Preference
             android:key="project_thread"
