@@ -1,89 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="kernel">
-        <item>Kernel ID = 1</item>
-        <item>Kernel ID = 2</item>
-        <item>Kernel ID = 3</item>
-        <item>Kernel ID = 4</item>
+    <string-array name="wipe_data">
+        <item>Full Wipe</item>
+        <item>Clean Install</item>
+        <item>Dirty Flash</item>
     </string-array>
-    <string-array name="kernel_values">
+    <string-array name="wipe_data_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="set_kernel">
+        <item>SM-G93XF Jesse Kernel\nJesse Kernel v1.1.2 for S7 Flat &amp; S7 Edge</item>
+        <item>SM-G93XF Jesse Kernel\nJesse Kernel v1.3   for S7 flat &amp; S7 Edge</item>
+        <item>SM-G930F Super Kernel\nSuper Kernel v1.5.5 with Synapse Support for S7 flat</item>
+        <item>SM-G935F Super Kernel\nSuper Kernel v1.5.5 with Synapse Support for S7 Edge</item>
+    </string-array>
+    <string-array name="set_kernel_values">
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
     </string-array>
 
-    <string-array name="statusbar">
-        <item>StatusBar ID = 1</item>
-        <item>StatusBar ID = 2</item>
+    <string-array name="set_build">
+        <item>SM-G930F</item>
+        <item>SM-G935F</item>
     </string-array>
-    <string-array name="statusbar_values">
+    <string-array name="set_build_values">
         <item>1</item>
         <item>2</item>
     </string-array>
 
-    <string-array name="myfiles">
-        <item>My Files ID = 1</item>
-        <item>My Files ID = 2</item>
+    <string-array name="set_super">
+        <item>SM-G930F\nInstall build.prop for S7 flat</item>
+        <item>SM-G935F\nInstall build.prop for S7 Edge</item>
     </string-array>
-    <string-array name="myfiles_values">
+    <string-array name="set_super_values">
         <item>1</item>
         <item>2</item>
     </string-array>
 
-    <string-array name="keyboard" >
-        <item>Keyboard ID = 1</item>
-        <item>Keyboard ID = 2</item>
+    <string-array name="set_xposed">
+        <item>Yes\nXposed V85.1(stable) will be installed.</item>
+        <item>No\nXposed won\'t be installed.</item>
+        <item>Yes\nXposed v85.7 SYSTEMLESS will be installed</item>
+        <item>Yes\nXposed V86.2 UnOffcial SystLess will be installed</item>
     </string-array>
-    <string-array name="keybard_values" >
+    <string-array name="set_xposed_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="set_sound">
+        <item>SoundMod v16.3\nI Will install the Sound Mod by ZuBi182</item>
+        <item>Stock\nI Will keep the Sound Untouched</item>
+        <item>SoundMod v17 Lv0\nStock Volume</item>
+        <item>SoundMod v17 Lv1\nSlightly increased values</item>
+        <item>SoundMod v17 Lv2\nIntermediate version</item>
+        <item>SoundMod v17 Lv3\nBest volume values (I use this version)</item>
+    </string-array>
+    <string-array name="set_sound_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="set_emoij">
+        <item>Install stock emoj\nWill display stock emojis in keyboard</item>
+        <item>Install IOS 9.3 emojis\nWill install different IOS emojis in keyboard</item>
+    </string-array>
+    <string-array name="set_emoij_values">
         <item>1</item>
         <item>2</item>
     </string-array>
 
-    <string-array name="mms" >
-        <item>MMS ID = 1</item>
-        <item>MMS ID = 2</item>
+    <string-array name="set_dpi">
+        <item>500 DPI</item>
+        <item>530 DPI</item>
+        <item>540 DPI</item>
+        <item>640 DPI</item>
     </string-array>
-    <string-array name="mms_values" >
+    <string-array name="set_dpi_values">
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
 
-    <string-array name="fonts" >
-        <item>Font ID = 1</item>
-        <item>Font ID = 2</item>
+    <string-array name="set_ani">
+        <item>Default\nGive Me Default Animations</item>
+        <item>0.5x\nGive Me 0.5x Animations</item>
+        <item>0.25x\nGive Me 0.25x Animations</item>
     </string-array>
-    <string-array name="fonts_values" >
+    <string-array name="set_ani_values">
         <item>1</item>
         <item>2</item>
-    </string-array>
-
-    <string-array name="accuweather" >
-        <item>AccuWeather ID = 1</item>
-        <item>AccuWeather ID = 2</item>
-    </string-array>
-    <string-array name="accuweather_values" >
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="sound" >
-        <item>Sound ID = 1</item>
-        <item>Sound ID = 2</item>
-    </string-array>
-    <string-array name="sound_values" >
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="bootanimation" >
-        <item>Boot Animation ID = 1</item>
-        <item>Boot Animation ID = 2</item>
-    </string-array>
-    <string-array name="bootanimation_values" >
-        <item>1</item>
-        <item>2</item>
+        <item>3</item>
     </string-array>
 
 </resources>

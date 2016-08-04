@@ -2,55 +2,55 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <PreferenceCategory
-        android:title="My Files options">
-
+        android:title="Xposed">
         <ListPreference
-            android:title="My Files"
+            android:title="Choose wich Xposed you want to intall"
             android:summary="@string/selected_item"
-            android:key="myfiles"
-            android:defaultValue="1"
-            android:entries="@array/myfiles"
-            android:entryValues="@array/myfiles_values" />
+            android:key="set_xposed"
+            android:entries="@array/set_xposed"
+            android:entryValues="@array/set_xposed_values" />
+    </PreferenceCategory>
 
+
+    <PreferenceCategory
+        android:title="SoundMod">
+        <ListPreference
+            android:title="Do you want the sound mod by ZuBi182"
+            android:summary="@string/selected_item"
+            android:key="set_sound"
+            android:entries="@array/set_sound"
+            android:entryValues="@array/set_sound_values" />
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Keyboard options">
-
+        android:title="Emoij">
         <ListPreference
-            android:title="Keyboard"
+            android:title="install the IOS or stock Emojis in keyboard"
             android:summary="@string/selected_item"
-            android:key="keyboard"
-            android:defaultValue="1"
-            android:entries="@array/keyboard"
-            android:entryValues="@array/keybard_values" />
-
+            android:key="set_emoij"
+            android:entries="@array/set_emoij"
+            android:entryValues="@array/set_emoij_values" />
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="MMS options">
-
+        android:title="DPI">
         <ListPreference
-            android:title="MMS"
+            android:title="Choose the DPI you want"
             android:summary="@string/selected_item"
-            android:key="mms"
-            android:defaultValue="1"
-            android:entries="@array/mms"
-            android:entryValues="@array/mms_values" />
-
+            android:key="set_dpi"
+            android:entries="@array/set_dpi"
+            android:entryValues="@array/set_dpi_values" />
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Fonts options">
-
+        android:title="Animations">
         <ListPreference
-            android:title="Fonts"
+            android:title="Choose Default,0.5x and 0.25x Animations"
             android:summary="@string/selected_item"
-            android:key="fonts"
-            android:defaultValue="1"
-            android:entries="@array/fonts"
-            android:entryValues="@array/fonts_values" />
-
+            android:key="set_ani"
+            android:entries="@array/set_ani"
+            android:entryValues="@array/set_ani_values" />
     </PreferenceCategory>
+
 
 </PreferenceScreen>

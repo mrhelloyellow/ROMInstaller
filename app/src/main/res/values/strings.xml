@@ -1,10 +1,10 @@
 <resources>
 
-    <string name="app_name">ROM Installer</string>
+    <string name="app_name">FirePower ROM Installer</string>
     <string name="toolbar_title2">Preferences</string>
-    <string name="rom_name">ROMInstaller</string>
-    <string name="rom_folder">ROMInstaller/Download</string>
-    <string name="choose_sample_file">Choose \"SampleROM.zip\" file under ROMInstaller/Download</string>
+    <string name="rom_name">FirePowerROM</string>
+    <string name="rom_folder">FirePowerROM/Download</string>
+    <string name="choose_sample_file">Choose \"SampleROM.zip\" file under FirePowerROM/Download</string>
 
     <!-- Buttons -->
     <string name="positive_button">YES</string>
@@ -133,9 +133,9 @@
     <string name="no_downloads_available">No downloads available</string>
     <string name="project_version">Project version</string>
     <string name="project_developer_title">Project developer</string>
-    <string name="project_developer_summary">BenjaminW8</string>
+    <string name="project_developer_summary">Giuseppe Montuoro</string>
     <string name="project_themer_title">Project themer</string>
-    <string name="project_themer_summary">mrhelloyellow</string>
+    <string name="project_themer_summary">Costantino Di Bruno</string>
     <string name="project_thread_title">Thread</string>
     <string name="project_thread_summary">See the project\'s thread</string>
     <string name="project_github_title">GitHub</string>
@@ -151,8 +151,8 @@
     <string name="all_my_apps_summary">View all my Apps on Play Store</string>
 
     <!-- ROM Info -->
-    <string name="rom_build_number">Your ROM\'s build number</string>
-    <string name="rom_developer_summary">App &amp; ROM developer\'s name</string>
-    <string name="rom_themer_summary">App &amp; ROM themer\'s name</string>
+    <string name="rom_build_number">FirePower 5</string>
+    <string name="rom_developer_summary">BenjaminW8</string>
+    <string name="rom_themer_summary">Mrhelloyellow</string>
 
 </resources>

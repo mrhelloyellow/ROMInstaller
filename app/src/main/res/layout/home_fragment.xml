@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-38dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/exy"/>
+
+    <TextView
+        android:id="@+id/textView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="FirePower 5"
+        android:paddingBottom="16dip"
+        android:paddingLeft="?listPreferredItemPaddingLeft"
+        android:paddingRight="?listPreferredItemPaddingRight"
+        android:textAppearance="@style/TextAppearance.Welcome"
+        android:textColor="?colorAccent"
+        tools:ignore="RtlHardcoded"
+        android:layout_below="@id/imageView"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="16dp">
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/htmlWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    </ScrollView>
+
+</RelativeLayout>

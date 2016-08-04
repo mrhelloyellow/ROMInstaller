@@ -3,21 +3,54 @@ package com.peppe130.fireinstaller;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.preference.XpPreferenceFragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import org.sufficientlysecure.htmltextview.HtmlRemoteImageGetter;
+import org.sufficientlysecure.htmltextview.HtmlTextView;
+
 import java.util.ArrayList;
 
 
+@SuppressWarnings("ConstantConditions")
 public class FragmentsCollector {
 
     public static ArrayList<Fragment> mListFragment = new ArrayList<>();
 
     public static void Setup() {
 
+        mListFragment.add(new HomeFragment());
         mListFragment.add(new FirstFragment());
         mListFragment.add(new SecondFragment());
-        mListFragment.add(new ThirdFragment());
-        mListFragment.add(new FourthFragment());
-        mListFragment.add(new FifthFragment());
-        mListFragment.add(new SixthFragment());
+        mListFragment.add(new thirdFragment());
+        mListFragment.add(new forthFragment());
+    }
+
+    public static class HomeFragment extends XpPreferenceFragment {
+
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+        }
+
+        @Override
+        public void onActivityCreated(Bundle savedInstanceState) {
+            super.onActivityCreated(savedInstanceState);
+            HtmlTextView mHtmlTextView = (HtmlTextView) getView().findViewById(R.id.htmlWelcome);
+            assert mHtmlTextView != null;
+            mHtmlTextView.setHtml(R.raw.welcome, new HtmlRemoteImageGetter(mHtmlTextView));
+        }
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            return inflater.inflate(R.layout.home_fragment, container, false);
+        }
+
+        @Override
+        public void onCreatePreferences2(Bundle savedInstanceState, String rootKey) {
+            // Do nothing
+        }
 
     }
 
@@ -51,7 +84,8 @@ public class FragmentsCollector {
 
     }
 
-    public static class ThirdFragment extends XpPreferenceFragment {
+
+    public static class thirdFragment extends XpPreferenceFragment {
 
         @Override
         public void onCreate(Bundle savedInstanceState) {
@@ -66,12 +100,12 @@ public class FragmentsCollector {
 
     }
 
-    public static class FourthFragment extends XpPreferenceFragment {
+    public static class forthFragment extends XpPreferenceFragment {
 
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            addPreferencesFromResource(R.xml.fourth_fragment);
+            addPreferencesFromResource(R.xml.forth_fragment);
         }
 
         @Override
@@ -80,35 +114,4 @@ public class FragmentsCollector {
         }
 
     }
-
-    public static class FifthFragment extends XpPreferenceFragment {
-
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            addPreferencesFromResource(R.xml.fifth_fragment);
-        }
-
-        @Override
-        public void onCreatePreferences2(Bundle savedInstanceState, String rootKey) {
-            // Do nothing
-        }
-
-    }
-
-    public static class SixthFragment extends XpPreferenceFragment {
-
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            addPreferencesFromResource(R.xml.sixth_fragment);
-        }
-
-        @Override
-        public void onCreatePreferences2(Bundle savedInstanceState, String rootKey) {
-            // Do nothing
-        }
-
-    }
-
 }
